@@ -26,9 +26,9 @@ export default function Home() {
 
 
     return (
-        <main className="h-screen flex justify-center items-center">
+        <main className="flex justify-center items-center">
             { latitude &&
-            <div className="rounded p-4 border border-black shadow">
+            <div className="mt-72 rounded p-4 border border-black shadow">
                 <p>
                     latitude: {latitude}
                 </p>
